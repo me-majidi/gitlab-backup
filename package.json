@@ -1,0 +1,14 @@
+{
+  "name": "gitlab-clone",
+  "version": "1.0.0",
+  "description": "Clone all your projects from gitlab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "args": "^5.0.1"
+  }
+}
