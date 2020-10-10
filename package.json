@@ -2,16 +2,32 @@
   "name": "gitlab-backup",
   "version": "1.0.0",
   "description": "Clone all your projects from gitlab",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "gitlab-backup": "./bin/index.js"
   },
+  "scripts": {
+    "start": "node ./bin/index.js"
+  },
+  "keywords": [
+    "Gitlab",
+    "Clone",
+    "Backup",
+    "SSH",
+    "Repository",
+    "Git"
+  ],
   "repository": {
     "url": "Backup all your projects from Gitlab at once",
     "type": "git"
   },
-  "author": "",
-  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/me-majidi/gitlab-backup/issues"
+  },
+  "author": {
+    "name": "Mehran Majidi",
+    "email": "me.majiidii@gmail.com"
+  },
+  "license": "MIT",
   "dependencies": {
     "args": "^5.0.1",
     "bluebird": "^3.7.2",
