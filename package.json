@@ -1,6 +1,6 @@
 {
   "name": "gitlab-backup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Clone all your projects from Gitlab with one command",
   "bin": {
     "gitlab-backup": "./bin/index.js"
