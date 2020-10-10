@@ -1,8 +1,12 @@
 # Gitlab Backup
 
-Backup all your projects from Gitlab at once
+Clone all your projects from Gitlab with one command
 
 > For using this library you should generate a __Gitlab access token__
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/me-majidi/gitlab-backup/master/demo.gif"/>
+</p>
 
 ## Installation
 
