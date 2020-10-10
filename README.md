@@ -2,7 +2,7 @@
 
 Backup all your projects from Gitlab at once
 
-> For using this library you should generate a Gitlab access token
+> For using this library you should generate a __Gitlab access token__
 
 ## Installation
 
@@ -21,5 +21,5 @@ npm install gitlab-backup -g
 ## Usage
 
 ```bash
-gitlab-backup -t TOKEN -o ./my-projects
+gitlab-backup --token TOKEN --output ./my-projects
 ```
