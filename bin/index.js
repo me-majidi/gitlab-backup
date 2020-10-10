@@ -17,7 +17,7 @@ const defaultOutput = path.resolve(__dirname, "gitlab-projects");
 
 (async function ({ token, output = defaultOutput, url }) {
   if (!token) {
-    return console.log("x Please provide your Gitlab access token".red);
+    return console.log("✖ Please provide your Gitlab access token".red);
   }
   const request = new Request(url, token);
   const projects = new Set();
@@ -71,7 +71,7 @@ const defaultOutput = path.resolve(__dirname, "gitlab-projects");
     `✔ Successfully cloned ${projects.size - failedItems.length} projects`.green
   );
   if (failedItems.length) {
-    console.log("x Failed to clone these projects:".red);
+    console.log("✖ Failed to clone these projects:".red);
     for (const project of failedItems) {
       console.log(`${project}`.red);
     }
