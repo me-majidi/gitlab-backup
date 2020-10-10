@@ -1,7 +1,7 @@
 {
   "name": "gitlab-backup",
   "version": "1.0.0",
-  "description": "Clone all your projects from gitlab",
+  "description": "Clone all your projects from Gitlab with one command",
   "bin": {
     "gitlab-backup": "./bin/index.js"
   },
@@ -17,8 +17,8 @@
     "Git"
   ],
   "repository": {
-    "url": "Backup all your projects from Gitlab at once",
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/me-majidi/gitlab-backup.git"
   },
   "bugs": {
     "url": "https://github.com/me-majidi/gitlab-backup/issues"
