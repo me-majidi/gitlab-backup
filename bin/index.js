@@ -73,7 +73,7 @@ const defaultOutput = path.resolve(__dirname, "gitlab-projects");
   if (failedItems.length) {
     console.log("✖ Failed to clone these projects:".red);
     for (const project of failedItems) {
-      console.log(`${project}`.red);
+      console.log(`- ${project}`.red);
     }
   }
 })(flags);
